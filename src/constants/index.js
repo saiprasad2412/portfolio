@@ -20,9 +20,13 @@ import {
     tesla,
     shopify,
     carrent,
+    homeaway,
     jobit,
     tripguide,
     threejs,
+    hts,
+    angular,
+    finance
   } from "../assets";
   
   export const navLinks = [
@@ -42,11 +46,11 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Frontend Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Data Structures and Algorithms",
       icon: mobile,
     },
     {
@@ -54,7 +58,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Software Developer",
       icon: creator,
     },
   ];
@@ -73,8 +77,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Angular",
+      icon: angular,
     },
     {
       name: "React JS",
@@ -116,57 +120,32 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Frontend Web Developer Intern",
+      company_name: "HTS Tech Solutions",
+      icon: hts,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "June 2022 - Dec 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Key project development: Spearheaded the creation of all UIs for a critical company project, leading to the successful implementation of the website using React.",
+        "Responsive design: Developed a responsive Angular website for a construction company, increasing user engagement by 45% and facilitating easy contact.",
+        "Contributed to the creation of over 10 UIs in a dynamic ticker life web app.",
+        
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Software Developer",
+      company_name: "HTS Tech Solutions",
+      icon: hts,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jan 2024 - present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Upgraded website technology stack: Migrated from Angular 10 to Angular 17, increasing functionality by 70% and improving user experience by 50%.",
+        "Enhanced performance: Implemented server-side rendering (SSR) with Angular SSR, reducing load times by 40% and boosting SEO performance by 60%.",
+        "Optimized SEO: Generated static HTML snapshots, resulting in a 30% increase in search engine visibility and organic traffic.",
+        "Optimized SEO: Generated static HTML snapshots, resulting in a 30% increase in search engine visibility and organic traffic.",
       ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    }
+    
   ];
   
   const testimonials = [
@@ -198,9 +177,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "HomeAway",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "HomeAway is an all-in-one platform designed for property listings, offering seamless solutions for both property owners and buyers. Whether you're looking to sell or rent out your property, or searching for your dream home, HomeAway provides the tools you need.",
       tags: [
         {
           name: "react",
@@ -211,33 +190,33 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "prisma",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: homeaway,
+      source_code_link: "https://github.com/saiprasad2412/HomeAway",
     },
     {
-      name: "Job IT",
+      name: "Finance Tracker",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Personal Finance Tracker is a web application that helps you manage your finances effectively. With this application, you can track your income and expenses, set budgets, and gain better control over your financial health.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "mongodb",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "restapi",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: finance,
+      source_code_link: "https://github.com/saiprasad2412/Finance_Tracker",
     },
     {
       name: "Trip Guide",

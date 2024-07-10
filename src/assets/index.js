@@ -20,15 +20,21 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import angular from "./tech/Angular.jpg"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import hts from "./company/hts.jpg"
+
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import homeaway from "./HomeAway.png"
+import finance from "./FinanceTracker.jpg"
+
 
 export {
   logo,
@@ -59,4 +65,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  hts,
+  angular,
+  homeaway,
+  finance
 };

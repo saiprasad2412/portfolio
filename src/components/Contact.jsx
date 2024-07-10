@@ -37,9 +37,9 @@ const Contact = () => {
     // REACT_APP_PUBLIC_KEY='HrAntVStfkIr076Ww'
     emailjs
       .send(
-        process.env.REACT_APP_SERVICE_KEY
+        'service_fzyy1ai'
         ,
-        process.env.REACT_APP_TEMPLATE_KEY
+        'template_2vunfnl'
         ,
         {
           from_name: form.name,
@@ -48,7 +48,7 @@ const Contact = () => {
           to_email: "manesaiprasad2412@gmail.com",
           message: form.message,
         },
-        process.env.REACT_APP_PUBLIC_KEY
+        'HrAntVStfkIr076Ww'
 
       )
       .then(
@@ -70,6 +70,11 @@ const Contact = () => {
         }
       );
   };
+
+  const service_key = process.env.REACT_APP_SERVICE_KEY;
+  const template_key=process.env.REACT_APP_TEMPLATE_KEY;
+  const public_key= process.env.REACT_APP_PUBLIC_KEY;
+
 
   return (
     <div

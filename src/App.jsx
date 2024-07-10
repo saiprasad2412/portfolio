@@ -2,6 +2,7 @@ import { BrowserRouter } from "react-router-dom";
 
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
 import dotenv from 'dotenv'
+import Footer from "./components/Footer.jsx";
 const App = () => {
   return (
     <BrowserRouter>
@@ -19,6 +20,7 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
+        <Footer/>
       </div>
     </BrowserRouter>
   );
